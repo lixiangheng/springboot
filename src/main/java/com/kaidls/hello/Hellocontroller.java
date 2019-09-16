@@ -9,7 +9,7 @@ import javax.annotation.PostConstruct;
 public class Hellocontroller {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, This is my first SPring Boot project!.2019-09-07";
+        return "Hello, This is my first SPring Boot project!./hello";
     }
 }
 

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class root {
     @GetMapping("/")
     public String root() {
-        return "Hello, This is my first SPring Boot Root!";
+        return "Hello, This is ROOT page!";
     }
 
 }

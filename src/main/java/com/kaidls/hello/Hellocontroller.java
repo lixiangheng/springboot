@@ -9,7 +9,7 @@ import javax.annotation.PostConstruct;
 public class Hellocontroller {
     @GetMapping("/hello")
     public String hello() {
-        return "This is uri /hello, new20191009";
+        return "这是URI/hello页，欢迎来到Hello";
     }
 }
 

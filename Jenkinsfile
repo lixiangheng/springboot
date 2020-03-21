@@ -1,5 +1,8 @@
 pipeline {
    agent any
+    parameters {
+  gitParameter branch: '', branchFilter: '.*', defaultValue: 'origin/master', description: '选择要更新的版本', listSize: '10', name: 'choice', quickFilterEnabled: true, selectedValue: 'NONE', sortMode: 'DESCENDING_SMART', tagFilter: '*', type: 'PT_TAG'
+}
    stages {
       stage('scm') {
          steps {

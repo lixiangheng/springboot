@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class root {
     @GetMapping("/")
     public String root() {
-        return "Hello, world! 2020 加油吧,GOGOGO！2020.9.9日";
+        return "Hello, world! 2020 加油吧,GOGOGO！2020.9.9日,今天是教师节啦。9.10";
     }
 
 }
